@@ -9,6 +9,9 @@ shares the fixed order slab, level FIFO and open-addressing index with
 [matching-engine](https://github.com/Manuelma4/matching-engine). Price levels use sorted
 vectors because the feed's price range is not restricted to a narrow ladder.
 
+Start with [the ten-minute technical walkthrough](docs/TECHNICAL_WALKTHROUGH.md)
+for the data flow, evidence, measured trade-offs and remaining gaps.
+
 ## Run the queue example without market data
 
 Use Python 3 from this checkout; no build or data download is required:
@@ -329,8 +332,9 @@ now passes fourteen repeated positive calls, sixteen intended input refusals and
 altered actual-output controls. Across 184 scheduled events it preserves complete
 captured information and named D/E reductions; the hypothetical marker ends behind
 594 shares with zero fills under its explicit convention. Six reused inventories add
-no independent samples; coverage remains 37 distinct states. Next consolidate the
-learning/evidence walkthrough and assess remaining gaps before widening model scope.
+no independent samples; coverage remains 37 distinct states. The technical walkthrough now joins those results to the BBO, L3, journal and storage
+evidence. Next define deterministic later-session inventory checkpoints and resource
+limits before expanding independent comparison coverage.
 
 
 - The [self-contained synthetic example](docs/validation/2026-10-23-identified-queue-example/README.md)

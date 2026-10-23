@@ -13,6 +13,10 @@ FIFO at 37 distinct identified states, including the
 [same-price replacement pair](validation/2026-10-23-same-price-l3/README.md).
 Every-event quotes/depth, actual exchange priority and a separate vendor oracle remain unverified.
 
+The [technical walkthrough](TECHNICAL_WALKTHROUGH.md) maps the existing evidence to
+its invariants and limits, including the negative storage/search results. It adds no
+new experiment or historical sample.
+
 ## Canonical Nasdaq, 2019-12-30
 
 Validated on 2026-10-22 from the [official Nasdaq archive](https://emi.nasdaq.com/ITCH/Nasdaq%20ITCH/12302019.NASDAQ_ITCH50.gz),

@@ -214,3 +214,19 @@ appears in these selected transitions. Fresh full raw identity before/after comp
 and the new 284,563,784-byte prefix identity pass. The independent final review rechecks
 176 small identities without another raw replay. These finite observations do not
 expand the restricted identified-history or causal/transport admission contracts.
+
+## Current combined coverage: 37 distinct states
+
+The [same-price replacement comparison](validation/2026-10-23-same-price-l3/README.md)
+adds two disjoint QQQ states to the fifteen baseline and twenty X/U states above.
+Its 15,072 ordered row instances and 4,730 level instances match the independent
+reference exactly. The old best-bid order at rank two is replaced at the level's
+thirteen-order tail; BBO prices, sizes and counts remain equal. This supplies the
+same-price case absent from the earlier twenty-state extension.
+
+Current independent displayed L3/FIFO coverage is therefore 15+20+2 = 37 distinct
+boundaries. Repeated comparisons and later causal models reuse states; they do not
+increase that count. No actual exchange priority, every-event correctness, hidden
+liquidity, empirical fill or broader session-coverage claim follows. The
+[technical walkthrough](TECHNICAL_WALKTHROUGH.md) connects these checks to the other
+layers and the next coverage question.
